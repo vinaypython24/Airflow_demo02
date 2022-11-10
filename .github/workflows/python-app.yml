@@ -34,4 +34,4 @@ jobs:
     - name: Test with pytest
       run:
         pip install pytest
-        EXPORT PYTHONPATH = src
+        export PYTHONPATH = src
